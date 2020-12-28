@@ -1,0 +1,8 @@
+[ner]
+train_corpus_rootdir_train =  /home/gaofangjie/PeopleDaily1998-master/1998_train
+train_corpus_rootdir_test =  /home/gaofangjie/PeopleDaily1998-master/1998_test
+train_corpus_rootdir_dev =  /home/gaofangjie/PeopleDaily1998-master/1998_dev
+process_corpus_path = /home/gaofangjie/PeopleDaily1998-master/rmrb_raw.txt
+processed_corpus_path = /home/gaofangjie/PeopleDaily1998-master/rmrb_tagging.txt
+[model]
+model_path = ./ner_model
